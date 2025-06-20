@@ -3,7 +3,7 @@ export default function App() {
     <>
       <div>
         <h1>Hola mundo bonito</h1>
-        <p>mi vida es un pesadilla con los estudiantes de la unidad acemica</p>
+        <p>mi vida es un pesadilla</p>
       </div>
     </>
   );
