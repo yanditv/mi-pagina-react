@@ -1,0 +1,100 @@
+/* Estilos personalizados para la aplicación */
+
+/* Efectos hover para cards */
+.hover-lift {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Animaciones para botones */
+.btn {
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+/* Estilos para el contador */
+.display-1 {
+  font-size: 6rem;
+  font-weight: 700;
+}
+
+/* Mejoras para el navbar */
+.navbar-brand {
+  transition: transform 0.3s ease;
+}
+
+.navbar-brand:hover {
+  transform: scale(1.05);
+}
+
+/* Estilos para elementos activos en el navbar */
+.nav-link.active {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 0.375rem;
+}
+
+/* Espaciado personalizado */
+.py-section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+/* Efectos de gradiente */
+.bg-gradient-primary {
+  background: linear-gradient(135deg, #0d6efd 0%, #0a58ca 100%);
+}
+
+/* Animaciones sutiles */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-up {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+/* Responsive design improvements */
+@media (max-width: 768px) {
+  .display-1 {
+    font-size: 4rem;
+  }
+
+  .display-4 {
+    font-size: 2.5rem;
+  }
+
+  .display-5 {
+    font-size: 2rem;
+  }
+}
+
+/* Badge personalizado */
+.badge-custom {
+  font-size: 0.875rem;
+  padding: 0.5rem 1rem;
+}
+
+/* Estilos para lista de historial */
+.list-group-item {
+  border-left: 4px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.list-group-item:hover {
+  border-left-color: #0d6efd;
+  background-color: #f8f9fa;
+}
