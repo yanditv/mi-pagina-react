@@ -8,18 +8,18 @@ export default function Footer() {
               <i className="bi bi-heart-pulse-fill me-2"></i>
               Sistemas Biomédicos
             </h6>
-            <p className="text-muted mb-0">
+            <p className="text-white mb-0">
               Aplicación para el manejo de datos médicos y signos vitales.
             </p>
           </div>
           <div className="col-md-6 text-md-end">
             <div className="mb-2">
-              <small className="text-muted">
+              <small className="text-white">
                 <i className="bi bi-geo-alt me-1"></i>
                 Universidad Católica de Cuenca
               </small>
             </div>
-            <div className="text-muted">
+            <div className="text-white">
               <small>
                 &copy; {new Date().getFullYear()} - Todos los derechos
                 reservados
